@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  22 MAY 2018 15:48
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  22 MAY 2018 17:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -389,6 +389,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 72.
  [2] [3]
+Missing character: There is no ́ in font ptmr8t!
+Missing character: There is no ́ in font ptmr8t!
+Missing character: There is no ́ in font ptmr8t!
+Missing character: There is no ́ in font ptmr8t!
+Missing character: There is no ́ in font ptmr8t!
+Missing character: There is no ́ in font ptmr8t!
+Missing character: There is no ́ in font ptmr8t!
+Missing character: There is no ́ in font ptmr8t!
 File: Genechip.png Graphic file (type QTm)
 
 <use  "Genechip.png" > [4] [5] (./TESIS.aux
