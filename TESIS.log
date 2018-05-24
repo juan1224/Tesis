@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  22 MAY 2018 17:04
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  24 MAY 2018 15:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -399,7 +399,23 @@ Missing character: There is no ́ in font ptmr8t!
 Missing character: There is no ́ in font ptmr8t!
 File: Genechip.png Graphic file (type QTm)
 
-<use  "Genechip.png" > [4] [5] (./TESIS.aux
+<use  "Genechip.png" > [4]
+Missing character: There is no ́ in font ptmr8t!
+Missing character: There is no ́ in font ptmr8t!
+Missing character: There is no ́ in font ptmr8t!
+Missing character: There is no ́ in font ptmr8t!
+Missing character: There is no ́ in font ptmr8t!
+Missing character: There is no ́ in font ptmr8t!
+Missing character: There is no ́ in font ptmr8t!
+Missing character: There is no ́ in font ptmr8t!
+Missing character: There is no ́ in font ptmr8t!
+Missing character: There is no ́ in font ptmr8t!
+Missing character: There is no ́ in font ptmr8t!
+Missing character: There is no ́ in font ptmr8t!
+Missing character: There is no ́ in font ptmr8t!
+Missing character: There is no ́ in font ptmr8t!
+File: Genechip.png Graphic file (type QTm)
+ <use  "Genechip.png" > [5] [6] (./TESIS.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
@@ -412,4 +428,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  36i,18n,39p,2259b,442s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on TESIS.pdf (5 pages).
+Output written on TESIS.pdf (6 pages).
