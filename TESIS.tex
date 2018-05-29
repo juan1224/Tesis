@@ -115,7 +115,7 @@ Para entender un poco más de estas tecnologias y de los datos que se obtiene de
 Un microarreglo de ADN (ácido desoxirribonucleico) tambien llamado DNA chip, tambien llamado \textbf{oligonucleotido de DNA chip o gene chip} que consiste en pequeños fragmentos de ADN de los cuales representa un gen diferente \cite{VallinPlous2007}, es una superficie sólida a la cual se une una colección de fragmentos de ADN. Las superficies empleadas para fijar el ADN son muy variables y pueden ser de vidrio, plástico e incluso de silicona. Los chips de ADN se usan para analizar la expresión diferencial de genes.  Su funcionamiento consiste, básicamente, en medir el nivel de hibridación entre la sonda específica (probe, en inglés), y la molécula diana (target), y se indican generalmente mediante fluorescencia y a través de un análisis de imagen, lo cual indica el nivel de expresión del gen.	\\
 Por lo tanto, los microarreglos son una potente fuente de obtención de perfiles de expresión de genes sometidos a diferente condiciones. Identificar los patrones de los niveles de expresión será muy útil para compararlos y poder estudiar las respuestas de los genes. \\
 Aplicando una serie de procesos experimentales y computacionales sobre los microarreglos se obtiene una una matriz numerica bidimensional que consta de los genes de poblaciones distintas como individuos y de las condiciones experimentales a las que expusieron as células como variables en el caso que se quiera estudiar a los genes, o a la inversa, si es que se quiere realizar un estudio comparativo de las condiciones a que se somete. Cada uno de los valores de la matriz representa el nivel de expresión de un determinado gen bajo una cierta condición experimental. \\
-Estas matrices son de grandes dimensiones puesto que existen una gran cantidad de condiciones experimentales y genes. En la figura 1.1 se puede observar el modelo de la presentacion de los microarreglos . Cada fila representa un gen, el cual debe de ser indicado, cada columna represnta una condición experimental, cuyo nombre tambien debe de ser identicado. Los valores de la matriz son los niveles de expresión de los genes para la condicion experimental.
+Estas matrices son de grandes dimensiones puesto que existen una gran cantidad de condiciones experimentales y genes. En la figura 1 se puede observar el modelo de la presentación de los microarreglos. Cada fila representa un gen, el cual debe de ser indicado, cada columna represnta una condición experimental, cuyo nombre tambien debe de ser identicado. Los valores de la matriz son los niveles de expresión de los genes para la condicion experimental.
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=0.7\textwidth]{matrix.png}
@@ -147,8 +147,11 @@ Los campos vacíos se indican con '- - -' . El hecho de utilizar una cadena de e
 Algunas columnas en algunos archivos no contienen datos. Para ayudar a los usuarios a combinar datos de varios archivos, dichas columnas vacías no se eliminan. Por lo tanto, cada archivo tiene las mismas columnas en el mismo orden.\\
 
 Algunos campos, como "Chip", contienen el mismo valor para cada conjunto de sonda en un archivo. Aunque estos datos son redundantes en cualquier archivo individual, son útiles para los usuarios que combinan datos de varios archivos.
+\subsection{Metilación}
+La metilación es un proceso epigenetico que participa en la regulacion de la expresión genica de dos maneras, direcatmente al impedir de la unión de factores de transcripción, e indirectamente proporcionando la estructura "cerrada" de la cromatina\cite{Mesa-Cornejo, Viviana Matilde, Barros-Núñez, Patricio, & Medina-Lozano, Claudina2006}.
 
 \begin{thebibliography}{XXX0000}
   \bibitem{VallinPlous2007} Microarreglos de ADN y sus aplicaciones en investigaciones biomédicas. Revista CENIC. Ciencias Biológicas, 38 (2), 132-135. 
+  \bibitem {Mesa-Cornejo, Viviana Matilde, Barros-Núñez, Patricio, & Medina-Lozano, Claudina2006} Metilación del ADN: marcador diagnóstico y pronóstico de cáncer. Gaceta médica de México, 142(1), 81-82. 
 \end{thebibliography} 	
 \end{document}
