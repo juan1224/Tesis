@@ -118,9 +118,9 @@ Aplicando una serie de procesos experimentales y computacionales sobre los micro
 Estas matrices son de grandes dimensiones puesto que existen una gran cantidad de condiciones experimentales y genes. En la figura 1.1 se puede observar el modelo de la presentacion de los microarreglos . Cada fila representa un gen, el cual debe de ser indicado, cada columna represnta una condición experimental, cuyo nombre tambien debe de ser identicado. Los valores de la matriz son los niveles de expresión de los genes para la condicion experimental.
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=0.7\textwidth]{Genechip.png}
+\includegraphics[width=0.7\textwidth]{matrix.png}
 \end{center}
-\caption{Chip de un Microarreglo.}
+\caption{Chip de un Microarreglo}
 \end{figure}
 Dado que realizar un análisis de estas matrices de grandes dimensiones es una tarea prácticamente imposible, se hace necesarias técnicas computacionales que permitan analizar todos estos datos y entonces realizar el análisis biológico.\\
 Actualmente existen diferentes bases de datos a nuestro alcance a través de Internet que unifican y facilitan toda esta información genética además de ofrecer diversas herramientas para el análisis de esta gran cantidad de información. Algunas de estas bases de datos por ejemplo son las que hay en el EMBL (European Molecular Biology Laboratory), el SIB (Swiss Institute of Bioinformatics), el EBI (European Bioinformatics Institute) o el NCBI (National Center for Biotechnology Information). El EBI y el NCBI son los que más información contienen y por lo tanto los más utilizados.
@@ -132,7 +132,21 @@ El tamño de los microarreglos es de 1.28 cm x 1.28 cm, hay 500,000 ubicaciones 
 \caption{Chip de un Microarreglo.}
 \end{figure}
 En estos chips se imprimen las secuencias biologicas en un chip, de manera que se puede cuantificar el transcripción en una matriz numérica.	
+\subsection{Formato}
+Los archivos están disponibles en un formato de valores separados por comas (CSV). Estos son archivos de texto sin formato con cada fila terminada por un carácter de nueva línea. Los datos en campos separados están entre comillas y separados por comas. Ninguno de los campos de datos contiene ninguno de estos caracteres: comillas, nueva línea, retorno de carro o tabulación.\\
 
+Estos archivos se usen principalmente en aplicaciones de hojas de cálculo y programas de bases de datos (como bases de datos SQL). Los datos estan formateados de tal manera que estos dos usos sean relativamente fáciles. Se tiene en cuenta que algunos de los archivos y los campos de datos en ellos son grandes. 
+
+La primera fila de cada archivo contiene los títulos de los campos que figuran en las filas siguientes.\\
+
+Cada fila después de la primera fila contiene anotaciones para un solo conjunto de sondas. Todas las anotaciones para ese conjunto de sonda están contenidas en esa única fila. En algunos campos, como las anotaciones de dominio de proteínas, puede haber más de una anotación para un único conjunto de sondas. En este caso, los valores múltiples están separados por la cadena '///'.\\
+
+En muchos tipos de anotaciones, los subcampos están separados por '//'. Por ejemplo,  una anotación para un "GO Biological Process" puede aparecer como "7155 // cell adhesion // predicted / computed".  En este caso, las secciones corresponden a "ID // Descripción // Evidencia", pero el significado de los subcampos varía entre los diferentes tipos de anotación, como se describe a continuación.\\
+
+Los campos vacíos se indican con '- - -' . El hecho de utilizar una cadena de este tipo en lugar de dejar el campo vacío es que hace que la naturaleza columnar de los datos sea más visible en ciertos programas de hoja de cálculo.
+Algunas columnas en algunos archivos no contienen datos. Para ayudar a los usuarios a combinar datos de varios archivos, dichas columnas vacías no se eliminan. Por lo tanto, cada archivo tiene las mismas columnas en el mismo orden.\\
+
+Algunos campos, como "Chip", contienen el mismo valor para cada conjunto de sonda en un archivo. Aunque estos datos son redundantes en cualquier archivo individual, son útiles para los usuarios que combinan datos de varios archivos.
 
 \begin{thebibliography}{XXX0000}
   \bibitem{VallinPlous2007} Microarreglos de ADN y sus aplicaciones en investigaciones biomédicas. Revista CENIC. Ciencias Biológicas, 38 (2), 132-135. 
