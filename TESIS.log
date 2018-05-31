@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.9.6)  31 MAY 2018 17:01
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.9.6)  31 MAY 2018 18:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -418,12 +418,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
 
-
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
 
-[6]
+
 Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
@@ -456,8 +456,43 @@ LaTeX Warning: Citation `Claudina2006' on page 7 undefined on input line 171.
 [7]
 File: METODOLOGIA.png Graphic file (type QTm)
  <use  "METODOLOGIA.png" >
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 191.
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
+
+ []
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 203.
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
+
+ []
+
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 206.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
@@ -467,54 +502,54 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-Overfull \hbox (11.76682pt too wide) in paragraph at lines 190--193
+Overfull \hbox (11.76682pt too wide) in paragraph at lines 205--208
 []\T1/ptm/b/n/12 Instalación de cir-cos \T1/ptm/m/n/12 Pri-me-ro, des-car-ga-mo
 s Cir-cos \T1/pcr/m/n/12 http://circos.ca/software/download\T1/ptm/m/n/12 .
  []
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 193.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 208.
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <8> not available
-(Font)              Font shape `T1/pcr/b/n' tried instead on input line 193.
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 220--224
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 233--234
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 241--243
-
- []
-
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 208.
 [9]
-Missing character: There is no ​ in font ptmr8t!
-Missing character: There is no ​ in font ptmr8t!
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--296
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--239
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--258
 
  []
 
 [10]
+Missing character: There is no ​ in font ptmr8t!
+Missing character: There is no ​ in font ptmr8t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--311
+
+ []
+
+[11]
 File: run.png Graphic file (type QTm)
  <use  "run.png" >
 File: galaxy.png Graphic file (type QTm)
  <use  "galaxy.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 315--325
+Underfull \hbox (badness 10000) in paragraph at lines 330--340
 
  []
 
@@ -522,22 +557,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 315--325
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (14.41881pt too wide) in paragraph at lines 326--327
+Overfull \hbox (14.41881pt too wide) in paragraph at lines 341--342
 []\T1/ptm/m/n/12 En el di-rec-to-rio con-fi-g/ vie-ne el ar-chi-vo de con-fi-gu
 -ra-ción pe-ro lo en-con-tra-mos co-mo \T1/ptm/b/n/12 ga-laxy.ini.sample
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
+Underfull \hbox (badness 10000) in paragraph at lines 341--342
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--333
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
 
  []
 
-[11] [12] (./TESIS.aux
+[12] [13] (./TESIS.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 )
@@ -546,12 +581,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 6087 strings out of 493638
- 80571 string characters out of 6146797
- 274680 words of memory out of 5000000
- 9384 multiletter control sequences out of 15000+600000
- 26409 words of font info for 45 fonts, out of 8000000 for 9000
+ 6090 strings out of 493638
+ 80607 string characters out of 6146797
+ 273222 words of memory out of 5000000
+ 9386 multiletter control sequences out of 15000+600000
+ 28081 words of font info for 46 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 36i,18n,51p,2259b,1639s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,18n,51p,2259b,1637s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on TESIS.pdf (12 pages).
+Output written on TESIS.pdf (13 pages).
