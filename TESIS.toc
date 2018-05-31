@@ -12,4 +12,10 @@
 \contentsline {section}{\numberline {3}Tecnologías genómica.}{4}
 \contentsline {section}{\numberline {4}Microarreglos}{4}
 \contentsline {subsection}{\numberline {4.1}Formato}{6}
-\contentsline {subsection}{\numberline {4.2}Metilación}{7}
+\contentsline {subsection}{\numberline {4.2}Plataformas}{7}
+\contentsline {subsection}{\numberline {4.3}Metilación}{7}
+\contentsline {section}{\numberline {5}Propuesta de Solución}{8}
+\contentsline {section}{\numberline {6}Metodología}{8}
+\contentsline {subsection}{\numberline {6.1}Diseño de estudio}{8}
+\contentsline {subsection}{\numberline {6.2}Circos plot}{8}
+\contentsline {subsection}{\numberline {6.3}Galaxy}{10}
