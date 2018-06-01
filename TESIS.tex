@@ -70,14 +70,13 @@
 \tableofcontents % indice de contenido
 \section{Introducción}
 \subsection{Planteamiento del Problema}
-El cáncer de mama es una enfermedad compleja y heterogénea con más de 1,300,000 casos y 450,000 muertes cada año en todo el mundo. Esta enfermedad se caracteriza por diferentes ápectos biológicos como desregulazación de la expresión génica, alteraciones genómicas del ADN, etc. Todo esto da lugar al inicio y desarrollo del carcinoma de mama. En éstos últimos años el uso de datos ómicos, como los basados en  microarreglos (microarrays) y secuenciación, esta en su pleno () en el campo de la biomedicina. Todos estos datos permiten estudiar enfermedades desde un punto de vista biomolecular. Con esto, se ofrecen grandes oportunidades para mejorar tanto la comprención de la enfermedad, como el desarrollo de nuevos métodos para el diagnóstico y tratamiento del paciente, sin embargo, el análisis de estos datos producidos por estas tecnologías, es bastante complejo por lo que es necesario la aplicación de avanzadas técnicas de análisis y cálculos computacionales que permiten obtener la información biológica disponibles. Hasta el día de hoy todos estos datos óptenidos de diversos experimentos, datos de muy alta calidad, datos clinicamente bien anotados, y una gran cantidad de datos de canceres analizados con el fin de encontrar anomalias recurrentes que sean importantes de la enfermedad y estos datos se guardan en diversas plataformas que permiten tener uns gran cantidad de información , pero estos datos no son tan faciles de analizar, por ello, la bioinformática ayuda a manejar estructurar y organizarla para que sea mas fácil de comprender. Circos plot es una de las herramientas que existen para la visualización datos, ideal para explorar las relaciones entre objetos y posiciones. Esta herramienta es flexible, aunque originalmente fue diseñado para visualizar datos genómicos , se puede crear figúras a partir de datos en cualquier campo, desde la genómica hasta la visualización de la migración al arte matemático. Esta herramienta puede ser automatizada. Está controlado por archivos de configuración de texto plano, lo que lo hace díficil su incorporación en \textit{pipeline} de adquisición de datos, análisis e informes. Todo esto hace dificil su utilización en instalacion y desarrollo de la visualización. 
+El cáncer de mama es una enfermedad compleja y heterogénea con más de 1,300,000 casos y 450,000 muertes cada año en todo el mundo. Esta enfermedad se caracteriza por diferentes ápectos biológicos como desregulazación de la expresión génica, alteraciones genómicas del ADN, etc. Todo esto da lugar al inicio y desarrollo del carcinoma de mama. En éstos últimos años el uso de datos ómicos, como los basados en  microarreglos (microarrays) y secuenciación, se encuentran muy trabajados en el campo de la biomedicina. Todos estos datos permiten estudiar enfermedades desde un punto de vista biomolecular. Con esto, se ofrecen grandes oportunidades para mejorar tanto la comprención de la enfermedad, como el desarrollo de nuevos métodos para el diagnóstico y tratamiento del paciente, sin embargo, el análisis de estos datos producidos por estas tecnologías, es bastante complejo por lo que es necesario la aplicación de avanzadas técnicas de análisis y cálculos computacionales que permiten obtener la información biológica disponibles. Hasta el día de hoy todos estos datos óptenidos de diversos experimentos, datos de muy alta calidad, datos clinicamente bien anotados, y una gran cantidad de datos de canceres analizados con el fin de encontrar anomalias recurrentes que sean importantes de la enfermedad y estos datos se guardan en diversas plataformas que permiten tener uns gran cantidad de información , pero estos datos no son tan faciles de analizar, por ello, la bioinformática ayuda a manejar estructurar y organizarla para que sea mas fácil de comprender. Circos plot es una de las herramientas que existen para la visualización datos, ideal para explorar las relaciones entre objetos y posiciones. Esta herramienta es flexible, aunque originalmente fue diseñado para visualizar datos genómicos , se puede crear figúras a partir de datos en cualquier campo, desde la genómica hasta la visualización de la migración al arte matemático. Está controlado por archivos de configuración de texto plano, lo que lo hace díficil su incorporación en \textit{pipeline} de adquisición de datos, análisis e informes. Esta herramienta por manejarse con archivos de texto plano y su interfaz de comunicación con el usuario es la linea de comandos, hace que el tiempo de instalación y desarrollo de una visualización tome muchisimo tiempo y es dificil de utilizar. 
 \subsection{Justificación}
 La cantidad de información generada a través de las tecnologías de secuenciación masiva son enormes. La integración de toda esa información puede ayudar a tomar decisiones de índole biomédica e incluso clínica. 
 Aunque existen plataformas ya conocidas capaces de presentar esa información de un modo amigable, la programación de dichas herramientas continúa siendo complicada para un usuario final. Es por esto, que generar una herramienta con gran capacidad de visualización, integración de información y facilidad de implementación para un usuario final es de la mayor importancia. 
 
 Con el fin de mejorar el rendimiento y la cantidad de tiempo de los investigadores del Instituto Nacional de Medicina Genómica, es fundamental sistematizar este software para reducir el tiempo de programación y la investigación.
 La sistematización 	de circos plot, brindará la posibilidad de que el investigador ahorre en tiempo de programación o en dado caso que no se conozca nada del uso nativo de circos plot, leer todo el manual de uso de dicho software, para que ocupe su mayor de tiempo en la investigación y solo tome varios minutos para diseñar su grafica circular llamada circos plot.
-
 
 %Agregarlos a otros flujos de trabajo
 %A la fecha se utilizaban 2 platoformas pero con el desarrollo se implementaran 4 
@@ -168,7 +167,7 @@ Alguna de las plataformas son:
 
 
 \subsection{Metilación}
-La metilación es un proceso epigenetico que participa en la regulacion de la expresión genica de dos maneras, direcatmente al impedir de la unión de factores de transcripción, e indirectamente proporcionando la estructura "cerrada" de la cromatina\cite{Mesa-Cornejo, Viviana Matilde, Barros-Núñez, Patricio, & Medina-Lozano, Claudina2006}.
+La metilación es un proceso epigenetico que participa en la regulacion de la expresión genica de dos maneras, direcatmente al impedir de la unión de factores de transcripción, e indirectamente proporcionando la estructura "cerrada" de la cromatina\cite{VallinPlous2007}
 
 \section{Propuesta de Solución}
 %plticado.
@@ -202,7 +201,7 @@ La comunidad científica biológica ha adoptado a Circos de todo corazón. Por a
 
 Circos plot es una idea original de \textbf{Martin Krzywinski} y de un grupo de trabajo atras de el. El articulo donde habla sobre esta nueva herramienta de visualizaci\'{o}n \emph{\textbf{(Circos: an information aesthetic for comparative genomics)}} fue publicado el 9 de septiembre del 2009 y actualmente tiene 2973 citas, esto quiere decir que es una herramienta verdaderamente utilizada no solo en la biolog\'{i}a y todas sus ramas si no en muchas otros campos de la ciencia.\\
 
-\textbf{Instalación de circos}
+\subsubsection{Instalación de Circos plot }
 Primero, descargamos Circos \texttt{http://circos.ca/software/download}. El contenido de la distribución se describe a continuación.
 No necesitamos mover o editar ningún archivo en la distribución principal.
 \begin{lstlisting}[language=bash,caption={Suponiendo que desea instalar en ROOT=~/software/circos},style=consola]
@@ -353,9 +352,11 @@ admin_users = jjmartinez@inmegen.edu.mx
 \end{itemize}
 
 
+\bibliographystyle {plain}
+\bibliography {ref.bib}
 
-\begin{thebibliography}{XXX0000}
-  \bibitem{VallinPlous2007} Microarreglos de ADN y sus aplicaciones en investigaciones biomédicas. Revista CENIC. Ciencias Biológicas, 38 (2), 132-135. 
-  \bibitem {Mesa-Cornejo, Viviana Matilde, Barros-Núñez, Patricio, & Medina-Lozano, Claudina2006} Metilación del ADN: marcador diagnóstico y pronóstico de cáncer. Gaceta médica de México, 142(1), 81-82. 
-\end{thebibliography} 	
+%\begin{thebibliography}{XXX0000}
+%  \bibitem{VallinPlous2007} Microarreglos de ADN y sus aplicaciones en investigaciones biomédicas. Revista CENIC. Ciencias Biológicas, 38 (2), 132-135. 
+%  \bibitem {Mesa-Cornejo, Viviana Matilde, Barros-Núñez, Patricio, & Medina-Lozano, Claudina2006} Metilación del ADN: marcador diagnóstico y pronóstico de cáncer. Gaceta médica de México, 142(1), 81-82. 
+%\end{thebibliography} 	
 \end{document}

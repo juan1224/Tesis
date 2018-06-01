@@ -19,4 +19,5 @@
 \contentsline {subsection}{\numberline {6.1}Diseño de estudio}{8}
 \contentsline {subsection}{\numberline {6.2}Circos plot}{8}
 \contentsline {subsubsection}{\numberline {6.2.1}¿Qué es Circos plot?}{8}
+\contentsline {subsubsection}{\numberline {6.2.2}Instalación de Circos plot }{9}
 \contentsline {subsection}{\numberline {6.3}Galaxy}{11}
